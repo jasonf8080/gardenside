@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #FEFAF1;
+  --secondary-color: #32180f;
+  --underline-color: #a2967b;
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto !important;
+}
+
+body{
+  background: #FFFDF9;
+  font-family: "Darker Grotesque", serif;
+}
+
+.font-heading{
+  font-family: "Cormorant", serif; 
+  font-weight: 700; 
+  text-transform: uppercase;
+}
+
+.primary-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: all 0.3s;
+}
+
+.primary-button:hover {
+ background: white;
+ color: black;
+
+}
+
+
+.leading{
+  line-height: 40px !important;
+}
+
+.leading1{
+  line-height: 48px !important;
+}
+
+.leading2 {
+  line-height: 60px !important;
+}
+
+
+@media(max-width: 768px){
+  .leading {
+      line-height: 32px !important;
+    }
+
+    .leading2 {
+        line-height: 40px !important;
+    }
+}
+
+
+
+.text-shadow{
+  text-shadow: 2px 2px black;
+}
+
+
+.dynamic-texts {
+  margin-left: 10px;
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.dynamic-texts li {
+  list-style: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+  transform: translateY(-1px);
+  /* Sliding animation for text items */
+}
+
+.dynamic-texts li::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  border-left: 3px solid var(--primary-color);
+  /* Cursor effect */
+  animation: typing 3s steps(10) infinite reverse;
+  /* Continuous typing animation */
+}
+
+/* Keyframe for typing effect */
+@keyframes typing {
+  0% {
+    left: 100%;
+  }
+
+  40%,
+  60% {
+    left: calc(100% + 20px);
+    /* Move the cursor off the right */
+  }
+
+  100% {
+    left: 0%;
+    /* Reset to start typing position */
+  }
+}
+
+/* Keyframe for sliding the list */
+@keyframes slide {
+  100% {
+    top: -160px;
+    /* Moves the list upwards */
+  }
+}
+
+
+
+ @keyframes expand {
+   0% {
+     width: 100px;
+     height: 100px;
+     top: -50px;
+     right: -50px;
+     border-radius: 100%;
+   }
+
+   /* 50%{
+    border-radius: 100%;
+   } */
+
+   100% {
+     width: 100vw;
+     height: 100vh;
+     top: 0;
+     right: 0;
+     border-radius: 0%;
+   }
+ }
+
+ .animate-expand {
+  animation: expand 5s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+  /* background: #fefefe; */
+ }
+
+ .text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+#payment-information input{
+   border: 1px solid #aaa;
+   padding: 8px 12px;
+   margin-bottom: 16px;
+   border-radius: 4px;
+   background: transparent;
+}
+
+#payment-information input:focus {
+  border: 2px solid black;
+  outline: none;
+}
+
+#payment-information input::placeholder{
+  color: #333;
+}
+
+
+#orders-dashboard{
+  font-family: sans-serif;
+}
+
+
+@media(max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
