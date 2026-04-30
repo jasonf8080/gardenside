@@ -10,15 +10,15 @@ const Categories = () => {
       const category = searchParams.get('category') || 'pastries';
 
   return (
-        <div className='w-full border-y-[1px] border-y-[#817573] py-6 pb-4 flex gap-3 md:gap-5 mb-4 md:mb-8 overflow-scroll'>
+        <div className='w-full border-y-[1px] border-y-[#817573] py-6 pb-16  flex gap-3 md:gap-5 mb-4 md:mb-8 overflow-scroll' >
           {categories.map((item, index) => (
             <button
               key={index}
               onClick={() => navigate(`/menu?category=${item.name}`, { replace: true })}
-              className="cursor-pointer min-w-[125px] md:min-w-[140px] max-w-[125px] md:max-w-[140px]"
+              className="cursor-pointer w-[125px] h-[125px] md:w-[140px] md:h-[140px] "
             >
               <LazyLoadImage
-                className={`${category === item.name && 'border-[6px] border-secondary shadow-3xl '} max-w-full min-w-full shadow-lg`}
+                className={`${category === item.name && 'border-[6px] border-secondary  '} flex-shrink-0 min-w-[125px] w-[125px] h-[125px] md:w-[140px] md:h-[140px] cover `}
                 src={item.image}
                  effect="blur"    
                 alt={item.name}

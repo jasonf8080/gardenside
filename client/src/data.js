@@ -2,25 +2,25 @@ export const categories = [
 
    {
         name: 'bakery',
-        image: '/images/menu1.webp'
+        image: '/images/category3.jpg'
     },
 
 
      {
         name: 'foccacias',
-        image: '/images/menu2.webp'
+        image: '/images/category2.jpg'
     },
   
     
 
     {
         name: 'coffee',
-        image: '/images/menu3.webp'
+        image: '/images/category1.jpg'
     },
 
       {
         name: 'tastings',
-        image: '/images/menu4.webp'
+        image: '/images/category4.jpg'
     },
 
 

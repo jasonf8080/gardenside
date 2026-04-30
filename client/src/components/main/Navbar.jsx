@@ -16,7 +16,7 @@ const Navbar = () => {
   const {isCartOpen, cartItems} = useSelector((store) => store.cart)
 
   return (
-    <nav  className='py-4 sticky top-0 left-0 w-full bg-secondary text-white z-[99] h-[80px] flex justify-center items-center'>
+    <nav  className='py-4 sticky top-0 left-0 w-full bg-secondary text-white z-[99] h-[80px] flex justify-between items-center'>
         {/* Desktop */}
         <div className="container hidden md:flex justify-between items-center relative">
         
@@ -26,7 +26,7 @@ const Navbar = () => {
           </ul>
 
         
-          <h1 className="absolute left-1/2 -translate-x-1/2 font-heading text-3xl uppercase">Gardenside</h1>
+         
 
           
           <ul className="nav-links hidden md:flex items-center gap-4 text-xl">

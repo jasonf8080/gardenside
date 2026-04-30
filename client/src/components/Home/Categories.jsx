@@ -18,7 +18,7 @@ const Categories = () => {
             className='pt-14 pb-2 md:pt-24 md:pb-24 container'
         >
             <h1 className='text-2xl md:text-4xl mb-3 md:mb-6 font-heading'>Shop our collection</h1>
-            <div className='w-full  py-6 pb-10 flex gap-3 md:gap-5 mb-8 overflow-scroll'>
+            <div className='w-full  py-6 pb-28 flex gap-3 md:gap-5 mb-8 overflow-scroll'>
                 {inView && 
                     categories.map((item, index) => {
                     return (
@@ -27,7 +27,7 @@ const Categories = () => {
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                             transition={{duration: 0.5, delay: parseFloat(`0.${index * 2}`)}}
-                            className="cursor-pointer min-w-[300px] md:min-w-[380px] max-w-[300px] md:max-w-[380px]">
+                            className="cursor-pointer w-[300px] h-[300px] md:w-[380px] md:h-[380px]">
                                 <motion.img 
                                 src={item.image} 
                                 alt={item.name} 
