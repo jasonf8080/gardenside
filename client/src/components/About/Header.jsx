@@ -5,13 +5,13 @@ const Header = () => {
    const {loaded, handleLoad} = useLoadImage()
 
   return (
-   <section className='min-h-[500px] md:min-h-[750px] relative flex justify-center items-center'> 
+   <section className='min-h-[500px] md:min-h-[750px] relative flex justify-center items-center overflow-hidden'> 
         {/* Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
         {/* Background Image */}
         <img 
-            src='/images/heroCompress.webp' 
-            className={`${fadeInClass(loaded)} absolute top-0 left-0 min-w-full max-w-full h-auto min-h-full max-h-full object-cover z-[-1]`}
+            src='/images/aboutHeader.JPG' 
+            className={`${fadeInClass(loaded)} absolute blur-sm scale-105 top-0 left-0 min-w-full max-w-full h-auto min-h-full max-h-full object-cover z-[-1]`}
             alt="Our story" 
             onLoad={handleLoad}
             />
