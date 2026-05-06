@@ -6,16 +6,15 @@ export const categories = [
     },
 
 
-     {
-        name: 'foccacias',
-        image: '/images/category2.jpg'
-    },
   
-    
-
     {
         name: 'coffee',
         image: '/images/category1.jpg'
+    },
+
+     {
+        name: 'foccacias',
+        image: '/images/category2.jpg'
     },
 
       {
