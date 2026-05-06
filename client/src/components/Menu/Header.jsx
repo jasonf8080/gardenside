@@ -4,9 +4,9 @@ const Header = () => {
     const {loaded, handleLoad} = useLoadImage();
 
   return (
-      <section className='h-[500px] w-full relative flex justify-center items-center overflow-hidden'>
+      <section className='h-[500px] md:min-h-[600px] w-full relative flex justify-center items-center overflow-hidden'>
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 "></div>
-        <img className={`${fadeInClass(loaded)} absolute  scale-105 top-0 left-0 max-w-full min-w-full min-h-full max-h-full h-auto object-cover z-[-1]`}
+        <img className={`${fadeInClass(loaded)} absolute blur-[1px] scale-105 top-0 left-0 max-w-full min-w-full min-h-full max-h-full h-auto object-cover z-[-1]`}
           src='/images/menuHeader.jpg'
           alt="menu" 
         

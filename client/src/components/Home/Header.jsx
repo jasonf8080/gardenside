@@ -13,7 +13,7 @@ const Header = () => {
         {/* Background Image */}
         <img 
           src='/images/newHero.jpg' 
-          className={`${fadeInClass(loaded)} duration-500 absolute blur-sm scale-105 top-0 left-0 min-w-full max-w-full h-auto min-h-full max-h-full object-cover z-[-1] bg-secondary`}
+          className={`${fadeInClass(loaded)} duration-500 absolute blur-[2px] scale-105 top-0 left-0 min-w-full max-w-full h-auto min-h-full max-h-full object-cover z-[-1] bg-secondary`}
           alt="Featured menu item: " 
           onLoad={handleLoad}
         />
