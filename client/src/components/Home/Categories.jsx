@@ -15,7 +15,7 @@ const Categories = () => {
     return (
         <section 
             ref={ref} 
-            className='pt-14 pb-2 md:pt-24 md:pb-24 container'
+            className='pt-14 pb-2 md:pt-24 md:pb-24 container relative z-0'
         >
             <h1 className='text-2xl md:text-4xl mb-3 md:mb-6 font-heading'>Shop our collection</h1>
             <div className='w-full  py-6 pb-28 flex gap-3 md:gap-5 mb-8 overflow-scroll'>

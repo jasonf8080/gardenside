@@ -45,7 +45,7 @@ export const showcase = [
       Some of the finest restaurants such as <strong>City Limits</strong> in White Plains, <strong>River Cafe</strong> in Brooklyn, 
       <strong>Lespinasse</strong> in Manhattan, and many more. She wanted to devote her love of pastries into her own establishment.
     `,
-    image: "/images/about1.webp"
+    image: "/images/about1.jpg"
   },
   {
     title: "Partnership w/ South Salem Winery",
