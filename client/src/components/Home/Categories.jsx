@@ -15,12 +15,21 @@ const Categories = () => {
     return (
         <section 
             ref={ref} 
-            className='pt-8 pb-2 md:pt-24 md:pb-24 container relative z-0 flex justify-center items-center flex-col'
+            className='relative pt-[100px] md:pt-[150px]'
         >
+            <img className='absolute top-0 left-0 w-full h-full z-1' src="/images/categories.JPEG" alt="" />
+<div
+  className="absolute inset-0"
+  style={{
+    background:
+      "radial-gradient(ellipse at center, rgba(232,232,225,1) 0%, rgba(232,232,225,0.98) 55%, rgba(232,232,225,0.8) 75%, rgba(232,232,225,0.25) 100%)",
+  }}
+/>
+            <div className="container flex justify-center items-center flex-col pt-8 pb-2 md:pt-24 md:pb-24  z-5 relative">
             <h1 className='text-2xl md:text-4xl mb-3 md:mb-6 font-heading'>Shop our collection</h1>
             {/* <img className='max-w-[80px] md:max-w-[100px]' src="https://png.pngtree.com/png-clipart/20240109/original/pngtree-cartoon-croissant-png-image_14061296.png" alt="pastry" /> */}
             <p className='text-lg md:text-2xl text-center'>From homemade pastries to savory bites and perfectly brewed coffee explore out handcrafted favorites</p>
-            <div className='w-full  py-6  flex gap-3 md:gap-5 mb-8 overflow-scroll'>
+            <div className='w-full py-6 flex gap-3 md:gap-5 mb-8 overflow-scroll '>
                 {inView && 
                     categories.map((item, index) => {
                     return (
@@ -29,7 +38,7 @@ const Categories = () => {
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                             transition={{duration: 0.5, delay: parseFloat(`0.${index * 2}`)}}
-                            className="cursor-pointer bg-[#fff2e5]">
+                            className="cursor-pointer bg-[#fffbf3]  ">
                                 <motion.img 
                                 src={item.image} 
                                 alt={item.name} 
@@ -50,7 +59,7 @@ const Categories = () => {
                     })}
             </div>
 
-            {/* <button className='font-semibold uppercase text-xl'>View All Collection</button> */}
+           </div>
         </section>
     )
 }

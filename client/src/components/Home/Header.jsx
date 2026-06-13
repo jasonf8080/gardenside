@@ -6,7 +6,7 @@ const Header = () => {
   const {loaded, handleLoad} = useLoadImage();
 
   return (
-       <section className='relative z-[10] bg-secondary text-white mb-[150px]'> 
+       <section className='relative z-[10] bg-secondary text-white'> 
           {/* Content */}
           <div className="max-w-[95%] mx-auto flex flex-col justify-center items-center text-center translate-y-[40px]">
             <img className='max-w-[100px] md:max-w-[130px]' src="https://static.vecteezy.com/system/resources/previews/024/856/600/original/pink-sakura-flower-isolated-on-transparent-background-ai-generated-free-png.png" alt="green leaf" />
