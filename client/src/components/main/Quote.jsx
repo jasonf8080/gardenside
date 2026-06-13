@@ -23,38 +23,44 @@ const Quote = ({quote, buttonEl}) => {
 
               <div className="overflow-hidden text-center relative">
                 <img
-                  className='w-full h-[300px] md:h-[450px] object-cover brightness-75'
+                  className='w-full border-2 border-accent h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place3.jpg"
                   alt=""
                 />
-
-                <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
+                <div className='p-6'>
+                     <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
                 <p className='text-xl'>Thougtfully sourced coffee, fresh pastries & seasonal bites made with care</p>
                 <button className='text-accent'>View Menu</button>
+                </div>
+               
               </div>
 
               <div className="overflow-hidden text-center relative">
                 <img
-                  className='w-full h-[300px] md:h-[450px] object-cover brightness-75'
+                  className='w-full border-2 border-accent h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place2.jpg"
                   alt=""
                 />
-
-                <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
+                <div className='p-6'>
+                     <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
                 <p className='text-xl'>Thougtfully sourced coffee, fresh pastries & seasonal bites made with care</p>
                 <button className='text-accent'>View Menu</button>
+                </div>
+               
               </div>
 
               <div className="overflow-hidden text-center relative">
                 <img
-                  className='w-full h-[300px] md:h-[450px] object-cover brightness-75'
+                  className='w-full border-2 border-accent h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place1.jpg"
                   alt=""
                 />
-
-                <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
+                <div className='p-6'>
+                     <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
                 <p className='text-xl'>Thougtfully sourced coffee, fresh pastries & seasonal bites made with care</p>
                 <button className='text-accent'>View Menu</button>
+                </div>
+               
               </div>
             </div>
         </section>
