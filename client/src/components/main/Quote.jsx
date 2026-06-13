@@ -21,9 +21,9 @@ const Quote = ({quote, buttonEl}) => {
             <div className='grid grid-cols-1 md:grid-cols-3 max-w-[95%] mx-auto gap-8 md:gap-4 mt-10 relative '>
               {/* <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-10"></div> */}
 
-              <div className="overflow-hidden text-center relative">
+              <div className="overflow-hidden border-2 border-accent text-center relative">
                 <img
-                  className='w-full border-2 border-accent h-[300px] md:h-[450px] object-cover brightness-75'
+                  className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place3.jpg"
                   alt=""
                 />
@@ -35,9 +35,9 @@ const Quote = ({quote, buttonEl}) => {
                
               </div>
 
-              <div className="overflow-hidden text-center relative">
+              <div className="overflow-hidden border-2 border-accent text-center relative">
                 <img
-                  className='w-full border-2 border-accent h-[300px] md:h-[450px] object-cover brightness-75'
+                  className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place2.jpg"
                   alt=""
                 />
@@ -49,9 +49,9 @@ const Quote = ({quote, buttonEl}) => {
                
               </div>
 
-              <div className="overflow-hidden text-center relative">
+              <div className="overflow-hidden border-2 border-accent text-center relative">
                 <img
-                  className='w-full border-2 border-accent h-[300px] md:h-[450px] object-cover brightness-75'
+                  className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place1.jpg"
                   alt=""
                 />
