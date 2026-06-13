@@ -15,11 +15,11 @@ const Categories = () => {
     return (
         <section 
             ref={ref} 
-            className='pt-14 pb-2 md:pt-24 md:pb-24 container relative z-0 flex justify-center items-center flex-col'
+            className='pt-8 pb-2 md:pt-24 md:pb-24 container relative z-0 flex justify-center items-center flex-col text-white'
         >
             <h1 className='text-2xl md:text-4xl mb-3 md:mb-6 font-heading'>Shop our collection</h1>
             {/* <img className='max-w-[80px] md:max-w-[100px]' src="https://png.pngtree.com/png-clipart/20240109/original/pngtree-cartoon-croissant-png-image_14061296.png" alt="pastry" /> */}
-            <p className='text-lg md:text-2xl text-center'>From homemade pastries to savory vies and perfectly brewed coffee explore out handcrafted favorites</p>
+            <p className='text-lg md:text-2xl text-center'>From homemade pastries to savory bites and perfectly brewed coffee explore out handcrafted favorites</p>
             <div className='w-full  py-6  flex gap-3 md:gap-5 mb-8 overflow-scroll'>
                 {inView && 
                     categories.map((item, index) => {
@@ -29,7 +29,7 @@ const Categories = () => {
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                             transition={{duration: 0.5, delay: parseFloat(`0.${index * 2}`)}}
-                            className="cursor-pointer bg-[#fff2e5]">
+                            className="cursor-pointer bg-[#222]">
                                 <motion.img 
                                 src={item.image} 
                                 alt={item.name} 
