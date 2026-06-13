@@ -23,7 +23,7 @@ const Quote = ({quote, buttonEl}) => {
 
               <div className="overflow-hidden text-center relative">
                 <img
-                  className='w-full h-[450px] object-cover brightness-75'
+                  className='w-full h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place3.jpg"
                   alt=""
                 />
@@ -35,7 +35,7 @@ const Quote = ({quote, buttonEl}) => {
 
               <div className="overflow-hidden text-center relative">
                 <img
-                  className='w-full h-[450px] object-cover brightness-75'
+                  className='w-full h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place2.jpg"
                   alt=""
                 />
@@ -47,7 +47,7 @@ const Quote = ({quote, buttonEl}) => {
 
               <div className="overflow-hidden text-center relative">
                 <img
-                  className='w-full h-[450px] object-cover brightness-75'
+                  className='w-full h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place1.jpg"
                   alt=""
                 />
