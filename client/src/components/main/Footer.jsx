@@ -16,15 +16,16 @@ const Footer = () => {
            <div className='text-lg md:text-xl  md:text-left'>
             <h2 className="text-2xl md:text-3xl mb-4 md:mb-8 font-bold">Hours</h2>
 
-            <p>Thursday - Saturday: 7:00 AM - 7:00 PM</p>
-            <p>Sunday: 7:00 AM - 5:00 PM</p>
+            <p>Thursday - Frday: 7:00 AM - 7:00 PM</p>
+            <p>Saturday: 8:00 AM - 7:00 PM</p>
+            <p>Sunday: 8:00 AM - 5:00 PM</p>
           </div>
 
           <div className='text-lg md:text-xl  md:text-left'>
             <h2 className="text-2xl md:text-3xl mb-4 md:mb-8 font-bold">Contact</h2>
 
-           <p className='mb-2'>Phone: (914)-500-1200</p>
-           <p>Email: gardensidekitchen@gmail.com</p>
+           <p className='mb-2'>Phone: 917-837-1131</p>
+           {/* <p>Email: gardensidekitchen@gmail.com</p> */}
            <div className="flex mt-4  md:justify-start">
             <a href="#" className='text-3xl mr-3'><FaFacebook/></a>
             <a href="#" className='text-3xl'><FaInstagram/></a>

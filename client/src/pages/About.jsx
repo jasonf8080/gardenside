@@ -11,10 +11,7 @@ const About = () => {
     <>
     <Header/>
     <Showcase/>
-    <Quote quote='"Our mission is to serve pure, honest food made with locally sourced ingredients, while creating a welcoming space for the Lewisboro community to gather, connect, and feel at home.”'/>
 
-    <CoreValues/>
-    {/* <Suppliers/> */}
     </>
   )
 }

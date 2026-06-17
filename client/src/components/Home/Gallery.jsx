@@ -37,7 +37,7 @@ const Gallery = () => {
     <section ref={ref} className='pt-16 md:pt-20  bg-secondary text-white'>
         <div className="container text-center">
             <h1 className='text-2xl md:text-4xl mb-4'>Follow us on social media for more</h1>
-            <a href="#" className='underline text-xl uppercase underline-offset-8'>@gardensidekitchen</a>
+            <a href="https://www.instagram.com/gardensidekitchen/" className='underline text-xl uppercase underline-offset-8'>@gardensidekitchen</a>
         </div>
       
         <div id="gallery" className='mt-12 overflow-hidden'>

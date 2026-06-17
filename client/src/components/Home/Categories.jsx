@@ -26,7 +26,7 @@ const Categories = () => {
   }}
 />
             <div className="container flex justify-center items-center flex-col pt-8 pb-2 md:pt-24 md:pb-24  z-5 relative">
-            <h1 className='text-2xl md:text-4xl mb-2 md:mb-6 font-heading'>Shop our collection</h1>
+            <h1 className='text-3xl md:text-5xl mb-2 md:mb-6 font-heading'>Shop our collection</h1>
             {/* <img className='max-w-[80px] md:max-w-[100px]' src="https://png.pngtree.com/png-clipart/20240109/original/pngtree-cartoon-croissant-png-image_14061296.png" alt="pastry" /> */}
             <p className='text-lg md:text-2xl text-center'>From homemade pastries to savory bites and perfectly brewed coffee explore out handcrafted favorites</p>
             <div className='w-full py-6 flex gap-3 md:gap-5 mb-8 overflow-scroll '>

@@ -84,7 +84,7 @@ const Location = () => {
             <div className="h-[1px] mt-1 w-28 bg-black"></div>
           </div>
 
-          <div className="flex flex-col md:flex-row text-center items-center gap-4 md:gap-8">
+          <div className="flex flex-col md:flex-row text-center md:text-left items-center gap-4 md:gap-8">
             <h1 className="font-heading text-4xl md:text-5xl uppercase">Location</h1>
             <div className="hidden md:block h-16 w-[1px] bg-black"></div>
             <p className='w-[250px] text-lg'>Located insdie Gossett's Nursery surrounded by plants, cofee, pastries, and South Salem Winery</p>

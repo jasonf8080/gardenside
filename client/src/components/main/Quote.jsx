@@ -21,44 +21,44 @@ const Quote = ({quote, buttonEl}) => {
             <div className='grid grid-cols-1 md:grid-cols-3 max-w-full mx-auto gap-8 md:gap-4 mt-10 relative '>
               {/* <div className="absolute top-0 left-0 w-full h-full bg-black/30 z-10"></div> */}
 
-              <div className="overflow-hidden  shadow-xl text-center relative">
+              <div className="overflow-hidden text-center relative">
                 <img
                   className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place3.jpg"
                   alt=""
                 />
                 <div className='p-6'>
-                     <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
-                <p className='text-xl'>Thougtfully sourced coffee, fresh pastries & seasonal bites made with care</p>
-                <button className='text-accent'>View Menu</button>
+                     <h1 className='font-heading uppercase text-xl md:text-2xl mb-2'>Gardenside Kitchen</h1>
+                <p className='text-xl mb-6'>Thougtfully sourced coffee, fresh pastries & seasonal bites made with care</p>
+                <button className='uppercase text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>View Menu</button>
                 </div>
                
               </div>
 
-              <div className="overflow-hidden  shadow-xl text-center relative">
+              <div className="overflow-hidden text-center relative">
                 <img
                   className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place2.jpg"
                   alt=""
                 />
                 <div className='p-6'>
-                     <h1 className='font-heading uppercase text-4xl'>Winery</h1>
-                <p className='text-xl'>Thoughtfully crafted wines, handcrafted small plates & welcoming moments to savor</p>
-                <button className='text-accent'>Visit Winery</button>
+                     <h1 className='font-heading uppercase text-xl md:text-2xl mb-2'>South Salem Winery</h1>
+                <p className='text-xl mb-6'>Thoughtfully crafted wines, handcrafted small plates & welcoming moments to savor</p>
+                <button className='uppercase text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>Visit Winery</button>
                 </div>
                
               </div>
 
-              <div className="overflow-hidden  shadow-xl text-center relative">
+              <div className="overflow-hidden text-center relative">
                 <img
                   className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
                   src="/images/place1.jpg"
                   alt=""
                 />
                 <div className='p-6'>
-                     <h1 className='font-heading uppercase text-4xl'>Nursery</h1>
-                <p className='text-xl'>Thoughtfully grown plants, seasonal blooms & a peaceful place to wander</p>
-                <button className='text-accent'>Visit Nursery</button>
+                     <h1 className='font-heading uppercase text-xl md:text-2xl mb-2'>Gossett's Nursery</h1>
+                <p className='text-xl mb-6'>Thoughtfully grown plants, seasonal blooms & a peaceful place to wander</p>
+                <button className='uppercase text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>Visit Nursery</button>
                 </div>
                
               </div>
