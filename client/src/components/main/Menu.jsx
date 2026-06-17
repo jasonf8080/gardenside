@@ -17,8 +17,8 @@ const Menu = ({setMenuOpen}) => {
               {/* <li className="mb-12"><Link to={'/menu'} onClick={() => setMenuOpen(false)}>Cart</Link></li> */}
             </ul>
             <div className="flex justify-center items-center text-4xl">
-              <a  className='mr-4' href="#"><FaFacebook/></a>
-              <a href="#"><FaInstagram/></a>
+              {/* <a  className='mr-4' href="#"><FaFacebook/></a> */}
+              <a href="https://www.instagram.com/gardensidekitchen/"><FaInstagram/></a>
             </div>
           </div>
        </div>

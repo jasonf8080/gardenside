@@ -24,8 +24,8 @@ const Quote = ({quote, buttonEl}) => {
               <div className="overflow-hidden text-center relative">
                 <img
                   className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
-                  src="/images/place3.jpg"
-                  alt=""
+                  src="/images/place3.webp"
+                  alt="blueberry scones"
                 />
                 <div className='p-6'>
                      <h1 className='font-heading uppercase text-2xl mb-2'>Gardenside Kitchen</h1>
@@ -38,8 +38,8 @@ const Quote = ({quote, buttonEl}) => {
               <div className="overflow-hidden text-center relative">
                 <img
                   className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
-                  src="/images/place2.jpg"
-                  alt=""
+                  src="/images/place2.webp"
+                  alt="wine with cheese board"
                 />
                 <div className='p-6'>
                      <h1 className='font-heading uppercase text-2xl mb-2'>South Salem Winery</h1>
@@ -52,8 +52,8 @@ const Quote = ({quote, buttonEl}) => {
               <div className="overflow-hidden text-center relative">
                 <img
                   className='w-full  h-[300px] md:h-[450px] object-cover brightness-75'
-                  src="/images/place1.jpg"
-                  alt=""
+                  src="/images/place1.webp"
+                  alt="sceninc greehouse view"
                 />
                 <div className='p-6'>
                      <h1 className='font-heading uppercase text-2xl mb-2'>Gossett's Nursery</h1>

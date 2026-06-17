@@ -27,8 +27,8 @@ const Footer = () => {
            <p className='mb-2'>Phone: 917-837-1131</p>
            {/* <p>Email: gardensidekitchen@gmail.com</p> */}
            <div className="flex mt-4  md:justify-start">
-            <a href="#" className='text-3xl mr-3'><FaFacebook/></a>
-            <a href="#" className='text-3xl'><FaInstagram/></a>
+            {/* <a href="#" className='text-3xl mr-3'><FaFacebook/></a> */}
+            <a href="https://www.instagram.com/gardensidekitchen/" className='text-3xl'><FaInstagram/></a>
            </div>
           </div>
         </div>

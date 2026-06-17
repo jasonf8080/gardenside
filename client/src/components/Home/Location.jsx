@@ -94,13 +94,13 @@ const Location = () => {
 
         <div className='w-[100%] md:max-w-[90%] grid grid-cols-1  md:grid-cols-[700px_1fr] my-6 md:my-12 gap-4'>
           <div className='grid sm:grid-cols-2 gap-4'>
-            <img className='sm:h-[350px] sm:w-[350px] object-cover' src="/images/location2.jpg" alt="interior of cafe" />
+            <img className='sm:h-[350px] sm:w-[350px] object-cover' src="/images/location2.webp" alt="exterior view of cafe" />
 
             <div>
-                <img className='sm:w-[350px] sm:h-[175px]' src="/images/location1.jpg" alt="interior of cafe" />
+                <img className='sm:w-[350px] sm:h-[175px]' src="/images/location1.webp" alt="interior view of cafe" />
                 <div className="grid grid-cols-2 gap-4 mt-4">
-                  <img className='hidden sm:block sm:w-[175px] sm:h-[160px] object-cover' src="/images/location3.jpg" alt="winery counter" />
-                  <img className='hidden sm:block sm:w-[175px] sm:h-[160px] object-cover' src="/images/location4.jpg" alt="greenhouse" />
+                  <img className='hidden sm:block sm:w-[175px] sm:h-[160px] object-cover' src="/images/location3.webp" alt="winery counter" />
+                  <img className='hidden sm:block sm:w-[175px] sm:h-[160px] object-cover' src="/images/location4.webp" alt="cappucino swirl" />
                 </div>
             </div>
           </div>

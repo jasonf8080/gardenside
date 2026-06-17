@@ -9,7 +9,7 @@ const Header = () => {
        <section className='relative z-[10] bg-secondary text-white'> 
           {/* Content */}
           <div className="max-w-[95%] mx-auto flex flex-col justify-center items-center text-center translate-y-[40px]">
-            <img className='max-w-[100px] md:max-w-[130px]' src="https://static.vecteezy.com/system/resources/previews/024/856/600/original/pink-sakura-flower-isolated-on-transparent-background-ai-generated-free-png.png" alt="green leaf" />
+            <img className='max-w-[100px] md:max-w-[130px]' src="/images/flower.webp" alt="pink flower" />
            <div className="flex items-center justify-center gap-4 text-accent">
             <div className="w-12 h-px bg-accent"></div>
             <p className="text-lg md:text-xl font-bold">EST 2026</p>
@@ -23,9 +23,9 @@ const Header = () => {
 
         {/* Background Image */}
         <img 
-          src='/images/newHero.jpg' 
+          src='/images/newHero.webp' 
           className={`${fadeInClass(loaded)} duration-500 blur-[0px] mx-auto w-[90%] h-[275px] md:h-[400px] translate-y-[100px] md:translate-y-[130px] relative z-[10] object-cover`}
-          alt="Featured menu item: " 
+          alt="front of cafe counter" 
           onLoad={handleLoad}
         />
 

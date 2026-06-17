@@ -3,7 +3,7 @@ export const categories = [
    {
         name: 'bakery',
         content: 'Freshly baked pastries made in-house daily',
-        image: '/images/category3.jpg'
+        image: '/images/category3.webp'
     },
 
 
@@ -11,19 +11,19 @@ export const categories = [
     {
         name: 'coffee',
         content: 'Artisan coffee roasted to perfection',
-        image: '/images/category1.jpg'
+        image: '/images/category1.webp'
     },
 
      {
         name: 'foccacias',
         content: 'Freshly baked pastries made in-house daily',
-        image: '/images/category2.jpg'
+        image: '/images/category2.webp'
     },
 
       {
         name: 'tastings',
         content: 'Artisan coffee roasted to perfection',
-        image: '/images/category4.jpg'
+        image: '/images/category4.webp'
     },
 
 

@@ -4,10 +4,10 @@ const Header = () => {
     const {loaded, handleLoad} = useLoadImage();
 
   return (
-        <section className='relative z-[10] bg-secondary text-white'> 
+        <section className='relative z-[10] bg-secondary text-white mb-[100px] md:mb-0'> 
           {/* Content */}
           <div className="max-w-[95%] mx-auto flex flex-col justify-center items-center text-center translate-y-[40px]">
-            <img className='max-w-[100px] md:max-w-[130px]' src="https://www.pngarts.com/files/1/Coffee-PNG-Free-Download.png" alt="coffee mug" />
+            {/* <img className='max-w-[100px] md:max-w-[130px]' src="https://www.pngarts.com/files/1/Coffee-PNG-Free-Download.png" alt="coffee mug" /> */}
       
             <h1 className='text-4xl md:text-6xl font-heading my-4'>OUR MENU</h1>
             

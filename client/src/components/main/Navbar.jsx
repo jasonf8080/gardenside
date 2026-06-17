@@ -21,8 +21,8 @@ const Navbar = () => {
         <div className="container hidden md:flex justify-between items-center relative">
         
           <ul className="flex items-center gap-4 text-2xl">
-            <li><a href="#"><FaFacebook/></a></li>
-            <li><a href="#"><FaInstagram/></a></li>
+            {/* <li><a href="#"><FaFacebook/></a></li> */}
+            <li><a href="https://www.instagram.com/gardensidekitchen/"><FaInstagram/></a></li>
           </ul>
 
         
