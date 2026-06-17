@@ -42,9 +42,9 @@ const Quote = ({quote, buttonEl}) => {
                   alt=""
                 />
                 <div className='p-6'>
-                     <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
-                <p className='text-xl'>Thougtfully sourced coffee, fresh pastries & seasonal bites made with care</p>
-                <button className='text-accent'>View Menu</button>
+                     <h1 className='font-heading uppercase text-4xl'>Winery</h1>
+                <p className='text-xl'>Thoughtfully crafted wines, handcrafted small plates & welcoming moments to savor</p>
+                <button className='text-accent'>Visit Winery</button>
                 </div>
                
               </div>
@@ -56,9 +56,9 @@ const Quote = ({quote, buttonEl}) => {
                   alt=""
                 />
                 <div className='p-6'>
-                     <h1 className='font-heading uppercase text-4xl'>Cafe</h1>
-                <p className='text-xl'>Thougtfully sourced coffee, fresh pastries & seasonal bites made with care</p>
-                <button className='text-accent'>View Menu</button>
+                     <h1 className='font-heading uppercase text-4xl'>Nursery</h1>
+                <p className='text-xl'>Thoughtfully grown plants, seasonal blooms & a peaceful place to wander</p>
+                <button className='text-accent'>Visit Nursery</button>
                 </div>
                
               </div>
