@@ -4,16 +4,27 @@ const Header = () => {
     const {loaded, handleLoad} = useLoadImage();
 
   return (
-      <section className='h-[500px] md:min-h-[600px] w-full relative flex justify-center items-center overflow-hidden'>
-        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 "></div>
-        <img className={`${fadeInClass(loaded)} absolute scale-105 top-0 left-0 max-w-full min-w-full min-h-full max-h-full h-auto object-cover z-[-1]`}
-          src='/images/menuHeader.jpg'
-          alt="menu" 
-        
-          onLoad={handleLoad}/>
-        
-        <h1 className='text-primary text-[33px] md:text-5xl font-bold mb-4 z-[10] font-heading'>Menu</h1>
-      </section>    
+        <section className='relative z-[10] bg-secondary text-white'> 
+          {/* Content */}
+          <div className="max-w-[95%] mx-auto flex flex-col justify-center items-center text-center translate-y-[40px]">
+            <img className='max-w-[100px] md:max-w-[130px]' src="https://www.pngarts.com/files/1/Coffee-PNG-Free-Download.png" alt="coffee mug" />
+      
+            <h1 className='text-4xl md:text-6xl font-heading my-4'>OUR MENU</h1>
+            
+             
+          </div>
+      
+
+        {/* Background Image */}
+        <img 
+          src='/images/menuHeader.jpg' 
+          className={`${fadeInClass(loaded)} duration-500 blur-[0px] mx-auto w-[90%] h-[275px] md:h-[400px] translate-y-[100px] md:translate-y-[130px] relative z-[10] object-cover`}
+          alt="Featured menu item: " 
+          onLoad={handleLoad}
+        />
+
+       
+        </section>
   )
 }
 

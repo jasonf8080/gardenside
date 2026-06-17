@@ -28,9 +28,9 @@ const Quote = ({quote, buttonEl}) => {
                   alt=""
                 />
                 <div className='p-6'>
-                     <h1 className='font-heading uppercase text-xl md:text-2xl mb-2'>Gardenside Kitchen</h1>
+                     <h1 className='font-heading uppercase text-2xl mb-2'>Gardenside Kitchen</h1>
                 <p className='text-xl mb-6'>Thougtfully sourced coffee, fresh pastries & seasonal bites made with care</p>
-                <button className='uppercase text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>View Menu</button>
+                <button className='uppercase text-lg md:text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>View Menu</button>
                 </div>
                
               </div>
@@ -42,9 +42,9 @@ const Quote = ({quote, buttonEl}) => {
                   alt=""
                 />
                 <div className='p-6'>
-                     <h1 className='font-heading uppercase text-xl md:text-2xl mb-2'>South Salem Winery</h1>
+                     <h1 className='font-heading uppercase text-2xl mb-2'>South Salem Winery</h1>
                 <p className='text-xl mb-6'>Thoughtfully crafted wines, handcrafted small plates & welcoming moments to savor</p>
-                <button className='uppercase text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>Visit Winery</button>
+                <Link to='https://www.southsalemwinery.com/' className='uppercase text-lg md:text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>Visit Winery</Link>
                 </div>
                
               </div>
@@ -56,9 +56,9 @@ const Quote = ({quote, buttonEl}) => {
                   alt=""
                 />
                 <div className='p-6'>
-                     <h1 className='font-heading uppercase text-xl md:text-2xl mb-2'>Gossett's Nursery</h1>
+                     <h1 className='font-heading uppercase text-2xl mb-2'>Gossett's Nursery</h1>
                 <p className='text-xl mb-6'>Thoughtfully grown plants, seasonal blooms & a peaceful place to wander</p>
-                <button className='uppercase text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>Visit Nursery</button>
+                <Link to='https://www.gossettnursery.com/' className='uppercase text-lg md:text-xl  border-[1px] border-accent px-6 py-2 text-accent hover:bg-accent hover:text-white'>Visit Nursery</Link>
                 </div>
                
               </div>

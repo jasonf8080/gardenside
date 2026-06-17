@@ -28,7 +28,7 @@ const ShowcaseItem = ({index, title, content, image}) => {
   })
 
   return (
-    <section ref={ref} className="pt-12 md:pt-20 pb-10 min-h-[800px]">
+    <section ref={ref} className="pt-12 md:pt-[200px] pb-10 min-h-[800px]">
     <div className="max-w-[90%] md:max-w-[80%] mx-auto flex flex-col md:flex-row justify-between gap-8 md:gap-24">
      <div 
         className=

@@ -17,7 +17,7 @@ const Header = () => {
           </div>
             <h1 className='text-4xl md:text-6xl font-heading my-4'>GARDENSIDE KITCHEN & <br/> COFFEE BAR</h1>
              <p className='text-lg md:text-xl flex justify-center items-center text-accent mb-6'>FRESH COFFEE • HANDCRAFTED PASTRIES • FOCCACIAS • LOCAL WINE • LATTES</p>
-             <button className="primary-button px-6 py-2 mb-8">View Menu</button>
+             <Link to='/menu' className="primary-button px-6 py-2 mb-8">View Menu</Link>
           </div>
       
 
