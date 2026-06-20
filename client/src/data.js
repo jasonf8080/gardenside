@@ -49,7 +49,8 @@ export const showcase = [
       Some of the finest restaurants such as <strong>City Limits</strong> in White Plains, <strong>River Cafe</strong> in Brooklyn, 
       <strong>Lespinasse</strong> in Manhattan, and many more. She wanted to devote her love of pastries into her own establishment.
     `,
-    image: "/images/about1.jpg"
+    image: "/images/pastry-chef.webp",
+    alt: "pastry chef Tracy Assue"
   },
   {
     title: "Partnership w/ South Salem Winery",
@@ -61,18 +62,19 @@ export const showcase = [
       that are designed to pair with <strong>SSW's</strong> wines—each plate thoughtfully crafted to complement the flavors 
       in your glass and elevate the experience.,
     `,
-    image: "/images/about2.webp"
+    image: "/images/winemaker.webp",
+    alt: "in-house winemaker John Vuolo"
   },
   {
     title: "Partnership w/ Gossett Brothers Nursery",
     text: `
       Our café is proudly located inside <strong>Gossett Brothers Nursery</strong>, a family-run greenhouse owned and operated by the Gossett family. 
-      Surrounded by lush plants and seasonal greenery, the space creates a unique atmosphere where fresh flavors and garden vibes naturally come together. 
+      Surrounded by plants and seasonal greenery, the space creates a unique atmosphere where fresh flavors and garden vibes naturally come together. 
       <br /><br />
-      Just as the nursery is rooted in growth and care for the land, Gardenside Kitchen embraces freshness and quality in every plate we serve. 
       Our partnership makes every visit more than just a meal—it’s an experience that blends nature, community, and nourishment under one roof.
     `,
-    image: "/images/about3.webp"
+    image: "/images/greenhouse.webp",
+    alt: "greenhouse exterior"
   }
 ];
 
